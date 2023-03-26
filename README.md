@@ -17,4 +17,6 @@ The model attained a high recognition accuracy of 97.59%
 with a loss of 6.6%. Real-time detection of characters is also 
 implemented using contour based techniques.
 
+If using this code, please cite the paper.
+
 Link to the Research Paper - https://ieeexplore.ieee.org/document/9445136
