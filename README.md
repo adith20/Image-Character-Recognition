@@ -6,9 +6,8 @@ extraction from images through multiple layers. These are later
 used for training the model and thereby recognizing characters.
 
 The dataset used in this Project is the Chars74K dataset of 
-English language.
+English language. A sample data in the dataset is shown below
 
-Sample data
 ![Sample data](https://user-images.githubusercontent.com/64524646/227774717-e6a9c35e-87e3-41e6-94e0-daab7756b1d9.png)
 
 The layers in the model are: Convolutional layer, Pooling 
