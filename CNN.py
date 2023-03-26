@@ -79,7 +79,7 @@ X_val = X_val.reshape(X_val.shape[0], X_val.shape[1], X_val.shape[2], 1)
 dataGen = ImageDataGenerator(width_shift_range=0.1, height_shift_range=0.1, zoom_range=0.2, shear_range=0.1,rotation_range=10)  # performing augmentation transformation
 dataGen.fit(X_train)  # applying the augmentation to training set
 
-# one hot encoding of matrix        ERROR fixed
+# one hot encoding of matrix        
 label_encoder1 = LabelEncoder()
 label_encoder2 = LabelEncoder()
 label_encoder3 = LabelEncoder()
